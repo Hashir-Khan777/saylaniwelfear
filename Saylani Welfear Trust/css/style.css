@@ -1,0 +1,412 @@
+* {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.header-nav, div.navbar-second {
+    width: 100%;
+}
+
+.nav-bar-image {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 110px;
+}
+
+div.header-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-content {
+    display: flex;
+    justify-content: center;
+    background-color: navy;
+    height: auto;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-content {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14px;
+}
+
+.nav-para {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.nav-para-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    margin-right: 2px;
+    border: 1px solid black;
+}
+
+.navbar-second-content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    width: auto;
+    height: auto;
+}
+
+.navbar-second-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 320px;
+}
+
+.navbar-second-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.navbar-second-items:hover {
+    border: 1px solid indigo;
+    background-color: indigo;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    transition: 0.77s;
+}
+
+.banner-caption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: indigo;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: blue;
+    text-decoration: underline green;
+    font-size: 40px;
+    font-family: serif;
+    margin-top: 60px;
+}
+
+span.duction {
+    color: green;
+    font-family: serif;
+}
+
+.para-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indigo;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.box-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-images-content {
+    padding-right: 40px;
+    justify-content: space-evenly;
+}
+
+h2, h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: -10px;
+    color: white;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+}
+
+h5 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.month {
+    color: green;
+}
+
+div.service-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.service-content-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+div.service-content-images img {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+div.service-content-images img:hover {
+    cursor: pointer;
+}
+
+figcaption.caption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: indigo;
+    font-size: 25px;
+}
+
+div.missions {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 850px;
+}
+
+h1.missions-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+div.mission-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    width: 350px;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+div.mission-content img:hover {
+    cursor: pointer;
+}
+
+div.mission-content figcaption {
+    color: blue;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+div.projects {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    width: 350px;
+    height: auto;
+}
+
+p.projects-para {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    height: 250px;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+div.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1.gallery-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+div.images-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.images-content>img:hover {
+    cursor: pointer;
+}
+
+span.span-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: serif;
+    color: green;
+}
+footer {
+    width: auto;
+}
+
+div.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    padding-top: 30px;
+    padding-left: 70px;
+    margin-top: 110px;
+    background-color: gray;
+    color: white;
+}
+
+ul.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+li.footer-items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.useful-links {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-left: 150px;
+}
+
+h5.useful-heading {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+div.connect-links {
+    display: inline-block;
+    margin-left: 150px;
+}
+
+h5.connect-heading {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+ul.connect-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li.connect-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+}
+
+div.copy-right {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: indigo;
+    color: white;
+}
+
+div.copy-right p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    font-size: 12px;
+}
